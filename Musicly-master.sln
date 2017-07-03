@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musicly-master", "Assembly-CSharp-firstpass.csproj", "{4E448DAC-7968-48A5-4854-0C6D64D2FEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musicly-master", "Assembly-CSharp.csproj", "{9479EF7D-19FF-546A-1B02-635A15525A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musicly-master", "Assembly-CSharp-Editor-firstpass.csproj", "{702C2B4B-3CC7-025C-0B2F-B2AFAF7E4127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E448DAC-7968-48A5-4854-0C6D64D2FEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E448DAC-7968-48A5-4854-0C6D64D2FEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E448DAC-7968-48A5-4854-0C6D64D2FEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E448DAC-7968-48A5-4854-0C6D64D2FEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9479EF7D-19FF-546A-1B02-635A15525A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9479EF7D-19FF-546A-1B02-635A15525A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9479EF7D-19FF-546A-1B02-635A15525A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9479EF7D-19FF-546A-1B02-635A15525A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702C2B4B-3CC7-025C-0B2F-B2AFAF7E4127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702C2B4B-3CC7-025C-0B2F-B2AFAF7E4127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702C2B4B-3CC7-025C-0B2F-B2AFAF7E4127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702C2B4B-3CC7-025C-0B2F-B2AFAF7E4127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

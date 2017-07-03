@@ -1,0 +1,707 @@
+{
+	"items":[
+		{
+			"key": "intro_welcome",
+			"value": "Bienvenue"
+		},
+		{
+			"key": "intro_notesButton",
+			"value": "NOTES"
+		},
+		{
+			"key": "intro_rhythmsButton",
+			"value": "RYTHME"
+		},
+		{
+			"key": "intro_flashcardsButton",
+			"value": "CARTES MUSICAL"
+		},
+		{
+			"key": "intro_settingsLanguage",
+			"value": "Changer langue"
+		},
+		{
+			"key": "intro_settingsRate",
+			"value": "Vote dans l'Apple Store"
+		},
+		{
+			"key": "intro_settingsContact",
+			"value": "Contacte-nous"
+		},
+		{
+			"key": "intro_settingsRestore",
+			"value": "Restaurer réglages d’origine"
+		},
+		{
+			"key": "intro_settingsDone",
+			"value": "C’est fait"
+		},
+		{
+			"key": "intro_restorePanel_warning",
+			"value": "ATTENTION!"
+		},
+		{
+			"key": "intro_restorePanel_text",
+			"value": "Tous les réglages seront supprimés et les réglages d’origine seront rétablis.  Veux-tu continuer?"
+		},
+		{
+			"key": "intro_restorePanel_buttonYes",
+			"value": "Oui"
+		},
+		{
+			"key": "intro_restorePanel_buttonNo",
+			"value": "No"
+		},
+		{
+			"key": "intro_feedbackText1",
+			"value": "Est-ce-que tu aimes l’application?"
+		},
+		{
+			"key": "intro_feedbackText2",
+			"value": " Faite passer le mot! Cela ne te prendra que quelques secondes :)"
+		},
+		{
+			"key": "intro_feedbackRate",
+			"value": "VOTE"
+		},
+		{
+			"key": "intro_feedbackLater",
+			"value": "Je le fais plus tard!"
+		},
+		{
+			"key": "language_english",
+			"value": "Anglais"
+		},
+		{
+			"key": "language_spanish",
+			"value": "Espanol"
+		},
+		{
+			"key": "language_italian",
+			"value": "Italien"
+		},
+		{
+			"key": "language_french",
+			"value": "Français"
+		},
+		{
+			"key": "language_portuguese",
+			"value": "Portugais"
+		},
+		{
+			"key": "language_default",
+			"value": "Défaut"
+		},
+
+
+		{
+			"key": "flashcards_shuffle",
+			"value": "MÉLANGER"
+		},
+		{
+			"key": "flashcards_noCards",
+			"value": "Aucune carte sélectionnée"
+		},
+		{
+			"key": "flashcards_card",
+			"value": "Carte"
+		},
+		{
+			"key": "flashcards_of",
+			"value": "de"
+		},
+		{
+			"key": "flashcards_G clef",
+			"value": "Clé"
+		},
+		{
+			"key": "flashcards_F clef",
+			"value": "Clé"
+		},
+		{
+			"key": "flashcards_C clef",
+			"value": "Clé"
+		},
+		{
+			"key": "flashcards_Treble clef notes",
+			"value": "Note"
+		},
+		{
+			"key": "flashcards_Bass clef notes",
+			"value": "Note"
+		},
+		{
+			"key": "flashcards_Tenor clef notes",
+			"value": "Note"
+		},
+		{
+			"key": "flashcards_Alto clef notes",
+			"value": "Note"
+		},
+		{
+			"key": "flashcards_Notes",
+			"value": "Note"
+		},		
+		{
+			"key": "flashcards_Rhythms",
+			"value": "Rythme"
+		},
+		{
+			"key": "flashcards_Keys",
+			"value": "Tonalité"
+		},
+		{
+			"key": "flashcards_Rests",
+			"value": "Pause"
+		},
+		{
+			"key": "flashcards_Tempo",
+			"value": "Tempo"
+		},
+		{
+			"key": "flashcards_clefsTreble",
+			"value": "Clef de sol"
+		},
+		{
+			"key": "flashcards_clefsBass",
+			"value": "Clef de fa"
+		},
+		{
+			"key": "flashcards_clefsTenor",
+			"value": "Clef de tenor"
+		},
+		{
+			"key": "flashcards_clefsAlto",
+			"value": "Clef de contralto"
+		},
+		{
+			"key": "flashcards_clefsC",
+			"value": "Clef d’ut"
+		},
+		{
+			"key": "flashcards_A",
+			"value": "LA"
+		},
+		{
+			"key": "flashcards_B",
+			"value": "SI"
+		},
+		{
+			"key": "flashcards_C",
+			"value": "DO"
+		},
+		{
+			"key": "flashcards_D",
+			"value": "RÉ"
+		},
+		{
+			"key": "flashcards_E",
+			"value": "MI"
+		},
+		{
+			"key": "flashcards_F",
+			"value": "FA"
+		},
+		{
+			"key": "flashcards_G",
+			"value": "SOL"
+		},
+		{
+			"key": "flashcards_Sharp",
+			"value": "Dièse"
+		},
+		{
+			"key": "flashcards_Flat",
+			"value": "Bémol"
+		},
+		{
+			"key": "flashcards_Whole",
+			"value": "Ronde"
+		},
+		{
+			"key": "flashcards_Half",
+			"value": "Blanche"
+		},
+		{
+			"key": "flashcards_DottedHalf",
+			"value": "Blanche pointée"
+		},
+		{
+			"key": "flashcards_Quarter",
+			"value": "Noire"
+		},
+		{
+			"key": "flashcards_DottedQuarter",
+			"value": "Noire pointée"
+		},
+		{
+			"key": "flashcards_Eighth",
+			"value": "Croche"
+		},
+		{
+			"key": "flashcards_Sixteenth",
+			"value": "Double croche"
+		},
+		{
+			"key": "flashcards_Triplet",
+			"value": "Triolet"
+		},
+		{
+			"key": "flashcards_WholeRest",
+			"value": "Pause"
+		},
+		{
+			"key": "flashcards_HalfRest",
+			"value": "Demi-pause"
+		},
+		{
+			"key": "flashcards_QuarterRest",
+			"value": "Soupir"
+		},
+		{
+			"key": "flashcards_EighthRest",
+			"value": "Demi-soupir"
+		},
+		{
+			"key": "flashcards_Grave",
+			"value": "Le plus doucement possible"
+		},
+		{
+			"key": "flashcards_Largo",
+			"value": "Très doucement"
+		},
+		{
+			"key": "flashcards_Adagio",
+			"value": "Doucement"
+		},
+		{
+			"key": "flashcards_Andante",
+			"value": "Velocità andante Allant"
+		},
+		{
+			"key": "flashcards_Moderato",
+			"value": "Vitesse modéré"
+		},
+		{
+			"key": "flashcards_Allegretto",
+			"value": "Vitesse assez rapide"
+		},
+		{
+			"key": "flashcards_Allegro",
+			"value": "Rapide"
+		},
+		{
+			"key": "flashcards_Vivace",
+			"value": "Rapide et vif"
+		},
+		{
+			"key": "flashcards_Presto",
+			"value": "Très rapide"
+		},
+		{
+			"key": "flashcards_Accelerando",
+			"value": "En augmentant le son"
+		},
+		{
+			"key": "flashcards_Ritardando",
+			"value": "En diminuant le son"
+		},
+		{
+			"key": "flashcards_Cmajor",
+			"value": "DO majeur\nou\nla mineur"
+		},
+		{
+			"key": "flashcards_Dmajor",
+			"value": "RÉ majeur\nou\nsi mineur"
+		},
+		{
+			"key": "flashcards_Emajor",
+			"value": "MI majeur\nou\ndo# mineur"
+		},
+		{
+			"key": "flashcards_Fmajor",
+			"value": "FA majeur\nou\nré mineur"
+		},
+		{
+			"key": "flashcards_Gmajor",
+			"value": "SOL majeur\nou\nmi mineur"
+		},
+		{
+			"key": "flashcards_Amajor",
+			"value": "LA majeur\nou\nfa# mineur"
+		},
+		{
+			"key": "flashcards_Bmajor",
+			"value": "SI majeur\nou\nsol# mineur"
+		},
+		{
+			"key": "flashcards_Cbmajor",
+			"value": "DOb majeur\nou\nlab mineur"
+		},
+		{
+			"key": "flashcards_Fbmajor",
+			"value": "FAb majeur\nou\nréb mineur"
+		},
+		{
+			"key": "flashcards_Dbmajor",
+			"value": "RÉb majeur\nou\nsib mineur"
+		},
+		{
+			"key": "flashcards_Gbmajor",
+			"value": "SOLb majeur\nou\nmib mineur"
+		},
+		{
+			"key": "flashcards_Ebmajor",
+			"value": "MIb majeur\nou\ndo mineur"
+		},
+		{
+			"key": "flashcards_Abmajor",
+			"value": "LAb majeur\nou\nfa mineur"
+		},
+		{
+			"key": "flashcards_Bbmajor",
+			"value": "SIb majeur\nou\nsol mineur"
+		},
+		{
+			"key": "flashcards_F#major",
+			"value": "FA# majeur\nou\nré# mineur"
+		},
+		{
+			"key": "flashcards_C#major",
+			"value": "DO# majeur\nou\nla# mineur"
+		},
+
+
+
+		{
+			"key": "easyLabel",
+			"value": "Facile"
+		},
+		{
+			"key": "mediumLabel",
+			"value": "Moyen"
+		},
+		{
+			"key": "hardLabel",
+			"value": "Difficile"
+		},
+		{
+			"key": "settingsLabel",
+			"value": "RÉGLAGES"
+		},
+		{
+			"key": "correctNotes",
+			"value": "Notes correctes"
+		},
+		{
+			"key": "wrongNotes",
+			"value": "Notes fausses"
+		},
+		{
+			"key": "accuracy",
+			"value": "Précision"
+		},
+		{
+			"key": "graphLegend",
+			"value": "PRÉCISION (%)"
+		},
+		{
+			"key": "totalScore",
+			"value": "SCORE"
+		},
+		{
+			"key": "graphscreenMessage",
+			"value": "Mes progrès avec"
+		},
+		{
+			"key": "graphscreenCircleLabel",
+			"value": "PRÉCISION MOYENNE"
+		},
+		{
+			"key": "graphscreenTotalGames",
+			"value": "jeux"
+		},
+		{
+			"key": "graphscreenHighAcc",
+			"value": "Plus grande précisione"
+		},
+		{
+			"key": "graphscreenLowAcc",
+			"value": "Plus basse précision"
+		},
+		{
+			"key": "graphscreenShare",
+			"value": "PARTAGE-TOI"
+		},
+		{
+			"key": "graphscreenNote",
+			"value": "* seulement les derniers 20 jeux sont affichés"
+		},
+		{
+			"key": "levelsLabel",
+			"value": "Niveau"
+		},
+		{
+			"key": "helpTitle",
+			"value": "Qu'est ce que je dois faire?"
+		},
+		{
+			"key": "helpLevelTitle",
+			"value": "1. Choisir son propre niveau"
+		},
+		{
+			"key": "helpOthersFinal",
+			"value": "Et… C’est tout! Amuse-toi et rappele-toi: s’entraîner est ce qu'il y a de mieux :)"
+		},
+		{
+			"key": "helpEnjoy",
+			"value": "AMUSE-TOI BIEN!"
+		},
+
+
+
+		{
+			"key": "feedback1",
+			"value": "Temps pour les critiques"
+		},
+		{
+			"key": "feedback2",
+			"value": "Tu t’approches!"
+		},
+		{
+			"key": "feedback3",
+			"value": "S’entraîner est ce qu'il y a de mieux!"
+		},
+		{
+			"key": "feedback4",
+			"value": "Bon travail!"
+		},
+		{
+			"key": "feedback5",
+			"value": "Bien, continue ainsi!"
+		},
+		{
+			"key": "feedback6",
+			"value": "Continue a t’entraîner!"
+		},
+		{
+			"key": "feedback7",
+			"value": "Tu es proche:)"
+		},
+		{
+			"key": "feedback8",
+			"value": "Bien fait!"
+		},
+		{
+			"key": "feedback9",
+			"value": "Excellent"
+		},
+		{
+			"key": "feedback10",
+			"value": "Incroyable:)"
+		},
+		{
+			"key": "feedback11",
+			"value": "Hourrah!"
+		},
+		{
+			"key": "feedback12",
+			"value": "Fantastique!"
+		},
+		{
+			"key": "feedback13",
+			"value": "Tu es un maître!"
+		},
+
+
+
+
+		{
+			"key": "notes_startButton",
+			"value": "Primes pour démarrer"
+		},
+		{
+			"key": "notes_score",
+			"value": "Score"
+		},
+		{
+			"key": "notes_inputNotes",
+			"value": "Notes de musique"
+		},
+		{
+			"key": "notes_inputPiano",
+			"value": "Piano"
+		},
+		{
+			"key": "notes_toggleInput",
+			"value": "Change les noms de notes"
+		},
+		{
+			"key": "notes_germanB",
+			"value": "B"
+		},
+		{
+			"key": "notes_germanBb",
+			"value": "Bb"
+		},
+		{
+			"key": "notes_settingsRange",
+			"value": "Gamma"
+		},
+		{
+			"key": "notes_settingsClefs",
+			"value": "Clés"
+		},
+		{
+			"key": "notes_settingsClefsTreble",
+			"value": "Clef de sol"
+		},
+		{
+			"key": "notes_settingsClefsBass",
+			"value": "Clef de fa"
+		},
+		{
+			"key": "notes_settingsClefsAlto",
+			"value": "Clef d’ut"
+		},
+		{
+			"key": "notes_settingsClefsTenor",
+			"value": "Ténor "
+		},
+		{
+			"key": "notes_settingsAccidentals",
+			"value": "Altérations"
+		},
+		{
+			"key": "notes_settingsAccidentalsSharp",
+			"value": "Dièse"
+		},
+		{
+			"key": "notes_settingsAccidentalsFlat",
+			"value": "Bémol"
+		},
+		{
+			"key": "notes_settingsDuration",
+			"value": "Durée"
+		},
+		{
+			"key": "notes_settingsDurationUnlimited",
+			"value": "Illimité"
+		},
+		{
+			"key": "notes_helpLevelText",
+			"value": "Il y a trois niveaux sur la base de la gamme de notes affichées."
+		},
+		{
+			"key": "notes_helpLevelRange",
+			"value": "GAMMA"
+		},
+		{
+			"key": "notes_helpOthersTitle",
+			"value": "2. Clés, Altérations et Tempo"
+		},
+		{
+			"key": "notes_helpOthersText",
+			"value": "Choisis la clef avec laquelle t’ai envie de jouer, les altérations que tu souhaites utiliser (si tu veux les utiliser) et la durée du jeu."
+		},
+		{
+			"key": "notesResults_averageNotes",
+			"value": "Tempo moyen"
+		},
+		{
+			"key": "notesResults_totalScoreNotes",
+			"value": "Observe: le score total est è le bon numéro de notes multiplié par la  précision et divisé par le tempo moyen"
+		},
+		{
+			"key": "notesResults_gameOver",
+			"value": "Ça ne s'est pas très bien passé. Essaie encore!"
+		},
+		{
+			"key": "notesResults_graphscreenMessageTitle",
+			"value": "LECTURE NOTES"
+		},
+		{
+			"key": "notesFeedback_noteMaster",
+			"value": "Tu es bon à ce jeu!"
+		},
+
+
+
+		{
+			"key": "rhythms_numOfGames",
+			"value": "8 exercices"
+		},
+		{
+			"key": "rhythms_startButton",
+			"value": "Primes pour démarrer"
+		},
+		{
+			"key": "rhythms_CountdownGet",
+			"value": "Attention"
+		},
+		{
+			"key": "rhythms_CountdownSet",
+			"value": "Position"
+		},
+		{
+			"key": "rhythms_CountdownReady",
+			"value": "Prépare-toi"
+		},
+		{
+			"key": "rhythms_CountdownGo",
+			"value": "Go!"
+		},
+		{
+			"key": "rhythms_missedNotes",
+			"value": "Notes manqué"
+		},
+		{
+			"key": "rhythms_oneHand",
+			"value": "Une main"
+		},
+		{
+			"key": "rhythms_twoHands",
+			"value": "Deux mains"
+		},
+		{
+			"key": "rhythms_settingsHands",
+			"value": "Main"
+		},
+		{
+			"key": "rhythms_settingsSpeed",
+			"value": "Vitesse"
+		},
+		{
+			"key": "rhythms_settingsNote",
+			"value": "Observe: le score total est è le bon numéro de notes multiplié par la  précision."
+		},
+		{
+			"key": "rhythmsResults_graphscreenMessageTitle",
+			"value": "RYTME"
+		},
+		{
+			"key": "rhythms_helpLevelText",
+			"value": "Il y a trois niveaux sur la base des valeurs rythmiques avec qui tu joueras."
+		},
+		{
+			"key": "rhythms_helpLevelEasyText",
+			"value": "Ronde, blanche, blanche pointée et noire. Y compris les mesures de 4/4 et 2/4."
+		},
+		{
+			"key": "rhythms_helpLevelMediumText",
+			"value": "Tout ce qu'il y a dessus, plus croche, noire pointée e pause. Ajoutées mesure à 3/4."
+		},
+		{
+			"key": "rhythms_helpLevelHardText",
+			"value": "Tout ce qu'il y a dessus, plus triolet, double croche et croche pointée. Ajoutées mesures à 6/8."
+		},
+		{
+			"key": "rhythms_helpOthersTitle",
+			"value": "2. Mains et vitesse"
+		},
+		{
+			"key": "rhythms_helpOthersText",
+			"value": "Sélectionner si tu veux utiliser les deux mains ou juste une et sélectionner la vitesse désirée."
+		}
+	]
+}
