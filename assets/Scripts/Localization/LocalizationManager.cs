@@ -43,12 +43,12 @@ public class LocalizationManager : MonoBehaviour {
 
 		}
 		//Opens the file
-		string dataAsJson = File.ReadAllText (filePath);
+		/*string dataAsJson = File.ReadAllText (filePath);
 		LocalizationData loadedData = JsonUtility.FromJson<LocalizationData> (dataAsJson);
 		//Adds the translation to the dictionary
 		for (int i=0; i<loadedData.items.Length; i++) {
 			localizedText.Add (loadedData.items [i].key, loadedData.items [i].value);
-		}
+		}*/
 		//Load game
 		isReady = true;
 
