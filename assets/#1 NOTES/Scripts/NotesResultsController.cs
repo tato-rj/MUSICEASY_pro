@@ -21,6 +21,8 @@ public class NotesResultsController : MonoBehaviour {
 	public GameObject graphPanel;
 	private bool showScore;
 
+	string[] feedbacksForAndroid;
+
 	void Awake () {
 
 		showScore = true;
@@ -29,54 +31,69 @@ public class NotesResultsController : MonoBehaviour {
 		int scoreNum = NotesScoreController.instance.scoreCount;
 		int totalScore = Mathf.RoundToInt (((scoreNum * percentage) / averageTime));
 
+		feedbacksForAndroid = new string[13] {
+			"Time for reviews",
+			"Getting there!",
+			"Practice makes perfect!",
+			"Good job!",
+			"Nice, keep it up!",
+			"Keep practicing!",
+			"Getting there:)",
+			"Well done!",
+			"Awesome",
+			"Amazing:)",
+			"Hooray!",
+			"Fantastic!",
+			"You're a master!"};
+		
 		if (percentage == 0) {
 			showScore = false;
 		} else if (percentage > 0 && percentage < 50) {
 			if (averageTime > 0 && averageTime < 2f) {
 				//1
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback1");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[0];//LocalizationManager.instance.GetLocalizedValue ("feedback1");
 			} else if (averageTime >= 2f && averageTime < 3f) {
 				//2
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback2");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[1];//LocalizationManager.instance.GetLocalizedValue ("feedback2");
 			} else if (averageTime >= 3f) {
 				//3
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback3");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[2];//LocalizationManager.instance.GetLocalizedValue ("feedback3");
 			}			
 		} else if (percentage >= 50 && percentage < 80) {
 
 			if (averageTime > 0 && averageTime < 1.5f) {
 				//5
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback5");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[3];//LocalizationManager.instance.GetLocalizedValue ("feedback5");
 			} else if (averageTime >= 1.5f && averageTime < 2.2f) {
 				//4
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback4");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[4];//LocalizationManager.instance.GetLocalizedValue ("feedback4");
 			} else if (averageTime >= 2.2f && averageTime < 3f) {
 				//6
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback6");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[5];//LocalizationManager.instance.GetLocalizedValue ("feedback6");
 			} else if (averageTime >= 3f && averageTime < 5f) {
 				//8
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback8");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[6];//LocalizationManager.instance.GetLocalizedValue ("feedback8");
 			} else if (averageTime >= 5f) {
 				//7
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback7");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[7];//LocalizationManager.instance.GetLocalizedValue ("feedback7");
 			}			
 		} else if (percentage >=80) {
 
 			if (averageTime > 0 && averageTime < 1.5f) {
 				//13
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback13");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[8];//LocalizationManager.instance.GetLocalizedValue ("feedback13");
 			} else if (averageTime >= 1.5f && averageTime < 2f) {
 				//12
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback12");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[9];//LocalizationManager.instance.GetLocalizedValue ("feedback12");
 			} else if (averageTime >= 2f && averageTime < 3f) {
 				//11
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback11");
+				message.GetComponent<Text> ().text = feedbacksForAndroid[10];//LocalizationManager.instance.GetLocalizedValue ("feedback11");
 			} else if (averageTime >= 3f && averageTime < 5f) {
 				//10
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback10");			
+				message.GetComponent<Text> ().text = feedbacksForAndroid[11];//LocalizationManager.instance.GetLocalizedValue ("feedback10");			
 				//9
 			} else if (averageTime >= 5f) {
-				message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback9");	
+				message.GetComponent<Text> ().text = feedbacksForAndroid[12];//LocalizationManager.instance.GetLocalizedValue ("feedback9");	
 			}			
 		}
 
@@ -87,7 +104,7 @@ public class NotesResultsController : MonoBehaviour {
 			correctNotes.text = NotesScoreController.instance.scoreCount.ToString();
 			wrongNotes.text = (NotesScoreController.instance.cardsPlayed - NotesScoreController.instance.scoreCount).ToString ();
 			average.text = averageTime.ToString("F1") + "s";
-			score.text = LocalizationManager.instance.GetLocalizedValue ("totalScore") + " " + totalScore.ToString();
+			score.text = /*LocalizationManager.instance.GetLocalizedValue ("totalScore") + */"TOTAL SCORE " + totalScore.ToString();
 			SetupStars ();
 		} else {
 			gameOver.SetActive (true);

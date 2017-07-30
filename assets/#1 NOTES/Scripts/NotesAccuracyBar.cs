@@ -21,7 +21,7 @@ public class NotesAccuracyBar : MonoBehaviour {
 		time += Time.deltaTime;
 
 		fillBar.fillAmount = Mathf.Lerp (0, NotesScoreController.instance.percentage/100, time);
-		accuracy.text = LocalizationManager.instance.GetLocalizedValue ("accuracy") + " " + Mathf.Round(Mathf.Lerp (0, NotesScoreController.instance.percentage, time)).ToString() + "%";
+		accuracy.text = /*LocalizationManager.instance.GetLocalizedValue ("accuracy") + */"Accuracy " + Mathf.Round(Mathf.Lerp (0, NotesScoreController.instance.percentage, time)).ToString() + "%";
 
 	}
 }

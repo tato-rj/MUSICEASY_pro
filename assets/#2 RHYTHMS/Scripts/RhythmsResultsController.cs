@@ -16,6 +16,8 @@ public class RhythmsResultsController : MonoBehaviour {
 	public GameObject message;
 	public GameObject graphPanel;
 
+	string[] feedbacksForAndroid;
+
 	void Awake () {
 
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
@@ -28,30 +30,45 @@ public class RhythmsResultsController : MonoBehaviour {
 		missedNotes.text = RhythmsScoreController.instance.missedNotes.ToString();
 		score.text = totalScore.ToString ();
 
+		feedbacksForAndroid = new string[13] {
+			"Time for reviews",
+			"Getting there!",
+			"Practice makes perfect!",
+			"Good job!",
+			"Nice, keep it up!",
+			"Keep practicing!",
+			"Getting there:)",
+			"Well done!",
+			"Awesome",
+			"Amazing:)",
+			"Hooray!",
+			"Fantastic!",
+			"You're a master!"};
+
 		SetupStars ();
 
 		if (percentage < 10) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback1");
+			message.GetComponent<Text> ().text = feedbacksForAndroid[0];//LocalizationManager.instance.GetLocalizedValue ("feedback1");
 		} else if (percentage >= 10 && percentage < 20) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback3");
+			message.GetComponent<Text> ().text = feedbacksForAndroid[1];//LocalizationManager.instance.GetLocalizedValue ("feedback3");
 		} else if (percentage >= 20 && percentage < 30) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback4");
+			message.GetComponent<Text> ().text = feedbacksForAndroid[2];//LocalizationManager.instance.GetLocalizedValue ("feedback4");
 		} else if (percentage >= 30 && percentage < 40) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback5");		
+			message.GetComponent<Text> ().text = feedbacksForAndroid[3];//LocalizationManager.instance.GetLocalizedValue ("feedback5");		
 		} else if (percentage >= 40 && percentage < 50) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback6");		
+			message.GetComponent<Text> ().text = feedbacksForAndroid[4];//LocalizationManager.instance.GetLocalizedValue ("feedback6");		
 		} else if (percentage >= 50 && percentage < 60) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback7");		
+			message.GetComponent<Text> ().text = feedbacksForAndroid[5];//LocalizationManager.instance.GetLocalizedValue ("feedback7");		
 		} else if (percentage >= 60 && percentage < 70) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback8");		
+			message.GetComponent<Text> ().text = feedbacksForAndroid[6];//LocalizationManager.instance.GetLocalizedValue ("feedback8");		
 		} else if (percentage >= 70 && percentage < 80) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback9");		
+			message.GetComponent<Text> ().text = feedbacksForAndroid[7];//LocalizationManager.instance.GetLocalizedValue ("feedback9");		
 		} else if (percentage >= 80 && percentage < 90) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback10");			
+			message.GetComponent<Text> ().text = feedbacksForAndroid[8];//LocalizationManager.instance.GetLocalizedValue ("feedback10");			
 		} else if (percentage >= 90 && percentage < 100) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback12");		
+			message.GetComponent<Text> ().text = feedbacksForAndroid[9];//LocalizationManager.instance.GetLocalizedValue ("feedback12");		
 		} else if (percentage == 100) {
-			message.GetComponent<Text> ().text = LocalizationManager.instance.GetLocalizedValue ("feedback13");			
+			message.GetComponent<Text> ().text = feedbacksForAndroid[10];//LocalizationManager.instance.GetLocalizedValue ("feedback13");			
 		}
 
 		RhythmsGameController.instance.SaveRecords (percentage, totalScore);

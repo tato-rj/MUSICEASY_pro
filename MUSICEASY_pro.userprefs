@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\FeedbackManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\UISounds.cs">
     <Files>
-      <File FileName="assets\Scripts\FeedbackManager.cs" Line="1" Column="1" />
-      <File FileName="assets\Scripts\IntroManager.cs" Line="1" Column="1" />
+      <File FileName="assets\#2 RHYTHMS\Scripts\RhythmsResultsController.cs" Line="82" Column="2" />
+      <File FileName="assets\#1 NOTES\Scripts\NotesAccuracyBar.cs" Line="24" Column="94" />
+      <File FileName="assets\#1 NOTES\Scripts\NotesResultsController.cs" Line="107" Column="97" />
+      <File FileName="assets\Scripts\UISounds.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

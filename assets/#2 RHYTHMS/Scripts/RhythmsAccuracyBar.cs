@@ -21,7 +21,7 @@ public class RhythmsAccuracyBar : MonoBehaviour {
 		time += Time.deltaTime;
 
 		fillBar.fillAmount = Mathf.Lerp (0, RhythmsScoreController.instance.percentage/100, time);
-		accuracy.text = LocalizationManager.instance.GetLocalizedValue ("accuracy") + " " + Mathf.Round(Mathf.Lerp (0, RhythmsScoreController.instance.percentage, time)).ToString() + "%";
+		accuracy.text = /*LocalizationManager.instance.GetLocalizedValue ("accuracy") + */"Accuracy " + Mathf.Round(Mathf.Lerp (0, RhythmsScoreController.instance.percentage, time)).ToString() + "%";
 	
 	}
 }

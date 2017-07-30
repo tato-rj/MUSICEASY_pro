@@ -63,8 +63,8 @@ public class FlashCardsController : MonoBehaviour {
 		for (int a=0; a<numberOfCards; a++) {
 			if (minDistance == distance[a]) {
 				cardInView = a + 1;
-				currentCardNo.text = LocalizationManager.instance.GetLocalizedValue ("flashcards_card")+" "+cardInView+" "+LocalizationManager.instance.GetLocalizedValue ("flashcards_of");
-				section.text = LocalizationManager.instance.GetLocalizedValue ("flashcards_"+cards [a].tag);
+				currentCardNo.text = /*LocalizationManager.instance.GetLocalizedValue ("flashcards_card")+*/"Card " + cardInView + " of";//+LocalizationManager.instance.GetLocalizedValue ("flashcards_of");
+				section.text = cards [a].tag;//LocalizationManager.instance.GetLocalizedValue ("flashcards_"+cards [a].tag);
 				minCardNum = a;
 			}
 		}

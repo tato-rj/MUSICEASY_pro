@@ -9,7 +9,7 @@ public class LocalizedText : MonoBehaviour {
 
 	void Start () {
 		Text text = GetComponent<Text> ();
-		text.text = LocalizationManager.instance.GetLocalizedValue (key);
+		//text.text = LocalizationManager.instance.GetLocalizedValue (key);
 	}
 
 
